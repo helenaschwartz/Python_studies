@@ -16,7 +16,7 @@ def draw_art():
 
     #Create Turtle Brad - draws a square
     brad = turtle.Turtle()
-    brad.shape("turtle")
+    brad.shape("circle")
     brad.color("yellow")
     brad.speed(2)
     draw_square(brad)

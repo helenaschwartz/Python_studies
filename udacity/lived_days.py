@@ -1,15 +1,16 @@
+from datetime import date
 from datetime import datetime
 
-date1 = datetime.today()
-    
-#date2 = datetime.date(abcd,ef,gh)
-#abcd = 1985
-#ef = 05
-#gh = 17
-    
+#today = datetime.today()
 
-print date1
+today_writed = date(2014,12,22)
+birth_date = date(1985,05,17)
 
-# Not good results yet :(
+ 
+diff = today_writed - birth_date
+print diff.days
+
+#Still need to understand how to transform the datetime.today only on days to be possible to do the difference
+
     
 
